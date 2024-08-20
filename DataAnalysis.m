@@ -73,7 +73,7 @@ xTickLabel=["4","6","8","10"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 1.25],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('Mic. number')
 if data_id==6
@@ -126,7 +126,7 @@ xTickLabel=["0/0","1/2","2/4","3/6"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 1.25],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('\sigma_{init}(m)')
 if data_id==6
@@ -181,7 +181,7 @@ xTickLabel=["$5\times10^{-5}s$","$10^{-4}s$","$5\times10^{-4}s$"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 0.95],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('\sigma_{tdoa}(s)')
 if data_id==6
@@ -252,7 +252,7 @@ xTickLabel=["4","6","8","10"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 1.25],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('Mic. number')
 ylabel('Loc. err. (m)')
@@ -293,7 +293,7 @@ xTickLabel=["0","0.5","1","2"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 1.25],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('\sigma_{init}(m)')
 ylabel('Loc. err. (m)')
@@ -334,7 +334,7 @@ xTickLabel=["Case A","Case B","Case C","Case D","Case E"];
 set(gca,'XTick', ini_p+1*wid:n_p:end_p+1*wid,'XTickLabel',xTickLabel,'Xlim',[0.05 1.55],'Ylim',[0 upper_n],'TickLabelInterpreter','latex','FontSize',30,'FontWeight','bold');
 set(gcf,'unit','normalized','position',[0.2,0.2,0.32,0.48]);
 box_vars = findall(gca,'Tag','Box');
-hLegend = legend(box_vars([2,1]), {'Our Method','[15]'},'location','NorthOutside','orientation','horizontal');
+hLegend = legend(box_vars([2,1]), {'Our Method','[13]'},'location','NorthOutside','orientation','horizontal');
 set(hLegend,'FontSize',35);
 xlabel('TDOA Noise Cases')
 ylabel('Loc. err. (m)')

@@ -91,7 +91,7 @@ for ii=1:4
     real1(ii).my_su_err=my_su_err;
     real1(ii).su_err=su_err;
 end
-save('real1.mat','real1')
+save('outputs/real1.mat','real1')
 %% Real-world experiment under various initial value noises (Part B) and TDOA noises (Part C)
 clear
 clc
@@ -138,8 +138,8 @@ for id=1:15
     mean(my_qua)
     mean(su_qua)
 end
-save('my_tdoa_errs.mat','my_tdoa_errs')
-save('su_tdoa_errs.mat','su_tdoa_errs')
+save('outputs/my_tdoa_errs.mat','my_tdoa_errs')
+save('outputs/su_tdoa_errs.mat','su_tdoa_errs')
 
 % under various initial value noises
 init_noise=[0,0.5,1,2];
@@ -176,7 +176,7 @@ for ii=1:4
     real2(ii).my_su_err=my_su_err;
     real2(ii).su_err=su_err;
 end
-save('real2.mat','real2')
+save('outputs/real2.mat','real2')
 
 % under various TDOA noises
 for ii=1:5
@@ -212,4 +212,4 @@ for ii=1:5
     real3(ii).my_su_err=my_su_err;
     real3(ii).su_err=su_err;
 end
-save('real3.mat','real3')
+save('outputs/real3.mat','real3')

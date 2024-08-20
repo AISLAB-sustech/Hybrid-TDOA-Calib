@@ -39,7 +39,7 @@ for j=1:3
         end
     end
 end
-save('sim1.mat','sim1')
+save('outputs/sim1.mat','sim1')
 %% Simulation under various initial value noises (Part B)
 clc
 clear
@@ -81,7 +81,7 @@ for j=1:3
         end
     end
 end
-save('sim2.mat','sim2')
+save('outputs/sim2.mat','sim2')
 %% Simulation under various TDOA noises (Part C&D)
 clear
 clc
@@ -131,5 +131,5 @@ for j=1:3
         sim3(3*(j-1)+ii).my_su_err=my_su_err;
     end
 end
-save('sim0.mat','sim0')
-save('sim3.mat','sim3')
+save('outputs/sim0.mat','sim0')
+save('outputs/sim3.mat','sim3')

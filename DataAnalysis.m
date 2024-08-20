@@ -1,7 +1,7 @@
 %% Simulation results for CRLB (Table II)
 clear
 clc
-load('sim0.mat')
+load('outputs/sim0.mat')
 mean_values = zeros(3,2);
 data_id=3; % 1,2,3 represent Loc. err., Off. err. and Dri. err respectively
 for i=1:3
@@ -33,7 +33,7 @@ end
 %% Simulation results under various microphone number (Fig.3a-c)
 clear
 clc
-load('sim1.mat')
+load('outputs/sim1.mat')
 mean_values = zeros(4,2);
 colors=[1,0,0,0,0,1];
 wid=0.1;
@@ -87,7 +87,7 @@ grid on;
 %% Simulation results under various initial value noises (Fig.3d-f)
 clear
 clc
-load('sim2.mat')
+load('outputs/sim2.mat')
 colors=[1,0,0,0,0,1];
 wid=0.1;
 noise_n=3;
@@ -140,7 +140,7 @@ grid on;
 %% Simulation results under various TDOA noises (Fig.3g-i)
 clear
 clc
-load('sim3.mat')
+load('outputs/sim3.mat')
 mean_values = zeros(4,2);
 colors=[1,0,0,0,0,1];
 wid=0.1;
@@ -195,8 +195,8 @@ grid on;
 %% TDOA noise evaluation
 clear
 clc
-load('my_tdoa_errs.mat')
-load('su_tdoa_errs.mat')
+load('outputs/my_tdoa_errs.mat')
+load('outputs/su_tdoa_errs.mat')
 mean_values = zeros(5,2);
 std_values = zeros(5,2);
 for i=1:5
@@ -216,7 +216,7 @@ end
 mean_values=round(100000*mean_values,1);
 std_values=round(100000*std_values,1);
 %% Real-world experiment results under various microphone number (Fig.5a)
-load('real1.mat')
+load('outputs/real1.mat')
 mean_values = zeros(4,2);
 colors=[1,0,0,0,0,1];
 wid=0.1;
@@ -260,7 +260,7 @@ grid on;
 %% Real-world experiment results under various initial value noises (Fig.5b)
 clear
 clc
-load('real2.mat')
+load('outputs/real2.mat')
 colors=[1,0,0,0,0,1];
 wid=0.1;
 noise_n=3;
@@ -301,7 +301,7 @@ grid on;
 %% Real-world experiment results under various TDOA noises (Fig.5c)
 clear
 clc
-load('real3.mat')
+load('outputs/real3.mat')
 colors=[1,0,0,0,0,1];
 wid=0.1;
 noise_n=4;

@@ -34,14 +34,14 @@ while toc(total_t)<lim_t
         su_err=[sg.rec,toc(total_t)];
         subplot(2,2,2);
         plot_g(init_sg,'no');
-        title('method [12] init.','FontSize',20)
+        title('method [13] init.','FontSize',20)
         subplot(2,2,4);
         plot_g(sg,'no');
-        title('method [12] result','FontSize',20)
+        title('method [13] result','FontSize',20)
         sg.rec(6)
         break
     end
 end
 clc
 sprintf('Loc. err. of my method: %f m',round(my_su_err(6),3))
-sprintf('Loc. err. of method [12]: %f m',round(su_err(6),3))
+sprintf('Loc. err. of method [13]: %f m',round(su_err(6),3))

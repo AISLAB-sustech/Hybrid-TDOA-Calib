@@ -16,6 +16,5 @@ Link in OneDrive: https://1drv.ms/f/s!AilTdY3K-LzJgbdgoZZSl9-d8883ow?e=gFOias. A
 
 ## Details
 - The first part in `real_main` computes TDOA-S and TDOA-M based on real-world audio in folder named "audio".
-- In the array named IFLYTEK M160C we use, the default output is microphone 0 as the first channel. However, we changed the audio output of microphone 0 to the last channel (sixth) and then output  `.wav` file.
 - My email: 11911918@mail.sustech.edu.cn.
 - link of the paper in arxiv: https://arxiv.org/abs/2403.05791.
